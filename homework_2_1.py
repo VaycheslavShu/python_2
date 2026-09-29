@@ -1,6 +1,3 @@
-import os
-import sys
-
 
 def sum_distance(one_number, two_number)->int:
     if one_number > two_number:
@@ -9,7 +6,7 @@ def sum_distance(one_number, two_number)->int:
     
 
 
-def main()->str:
+def main()->None:
     start_number = input("Введите начальное число: ")
     end_number = input("Введите конечное число")
     sum_distance(start_number, end_number)
